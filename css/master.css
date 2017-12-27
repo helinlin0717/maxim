@@ -1,0 +1,536 @@
+a{text-decoration: none;}
+h1,h2,h3,h4,p{
+	padding: 0;
+	margin: 0;
+}
+.page-container{
+	width: 1500px;
+}
+html,body{
+	margin: 0;
+	padding: 0;
+}
+.header{
+	background-image: url(../images/bg-1.jpg);
+	height: 713px;
+	width: 100%;
+}
+.login{
+	font-size: 26px;
+	padding:0;
+	float: left;
+}
+.login a{color: white;}
+.login a:hover{color:red;}
+.tab-nav{
+	float: right;
+	margin-right: 15%;
+}
+.main-nav{
+	margin-top:100px;
+	padding:0;
+	height: 80px;
+	line-height: 80px;
+	width: 100%;
+	position: fixed;
+	color: white;
+	z-index: 1000;
+	background-color: black;
+	padding: 0  50px;
+}
+.main-nav ul{
+	height:80px;
+	width:100%;
+	line-height: 80px;
+	margin:0 0 0 10%;
+	list-style: none;
+	overflow: hidden;
+	border: none;
+	background-color: black;
+}
+.main-nav ul li{
+	line-height: 80px;
+	float: left;
+	padding: 0 10px;
+	font-size: 15px;
+	color: #fff;
+}
+.main-nav ul li a{
+	float: left;
+    padding: 0 1px;
+	text-align: center;
+}
+.main-nav ul li a{
+	padding-left: 2px;
+	padding-right: 2px;
+	color: white;
+	font-family:"微软雅黑" ;
+	font-size:1.0em;
+}
+ul li a:hover{
+	color: red;
+}
+.tupian{
+	width: 100%;
+	height: 400px;
+	padding-top: 180px;
+	display: flex;/*主要让子容器针对父容器的宽度按一定规则进行划分*/
+	display: -webkit-flex;/*为了兼容性，两条并用*/
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.pic img{
+	width: 200px;
+	height: 200px;
+	text-align: center;
+	margin: 0 auto;
+}
+.wrap {
+    padding-top: 20px;
+	width: 100%;
+	text-align:center;
+}
+.roll-wrap {
+	margin-bottom: 100px;
+	color: #ffffff;
+	height: 70px;
+	overflow: hidden;
+	font-size: 65px;
+}
+.content{
+	width: 100%;
+}
+.content-header{
+	height: 400px;
+	width: 100%;
+	padding:0;
+	margin: 0;
+	line-height: 38px;
+	display: flex;
+	display: -webkit-flex;
+	flex-wrap: wrap;
+	align-items: center;
+	flex-direction: column;
+	background-color:#1aad91;
+}
+.descript {
+	width: 34%;
+    padding-right: 40%;
+    padding-top: 6%;
+    margin: 0;
+}
+.descript p{
+	color: white;
+	text-align: right;
+	font-size: 36px;
+    font-family: "微软雅黑" ;
+}
+.descript cite{
+	font-size: 10px;
+	color: #535454;
+}
+.konw{
+	padding-bottom: 7%;
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+}
+.who{
+    text-align: center;
+}
+.who h1{
+	padding-top: 8%;
+	color: #2a2a28;
+	font-size: 40px;
+	font-family: "微软雅黑" ;
+}
+.desc1{
+	width: 100%;
+	display: flex;
+	padding: 3% 10% 0 8%;
+}
+.live{
+	width: 26%;
+	line-height: 25px;
+	float: left;
+	padding:2% 0 0 5%;
+}
+.live p{
+	width: 100%;
+	color: #000;
+	font-size: 14px;
+	font-family: sans-seri;  
+	text-align: left;	
+}
+.live h2{
+	font-family: sans-seri;
+	font-size: 30px;
+	color: #2a2a28;
+}	
+.jia{
+	height:300px;
+	width: 483px;
+	padding-left: 8%;
+}
+.jia img{
+	float: left;
+}
+.desc2{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+    padding:4% 0 0 14%;
+}
+h3{
+	font-size: 25px;
+	text-align: center;
+	color: black;
+}
+.people{
+	padding: 0 20px ;
+}
+.people p{
+	font-size: 15px;
+	text-align: center;
+	color: #696969;
+}
+.people img{
+	border-radius: 50%;
+}
+
+.desc3{
+	width: 100%;
+	padding-top: 6%;
+	padding-bottom: 7%;
+	display: flex;
+	flex-direction: column;
+	background-color: #f46f36;
+}
+.title1{
+	text-align: center;
+}
+.title1 h1{
+	color: white;
+	font-size: 45px;
+}
+.design1{
+	width: 80%;
+	display: flex;
+	flex-direction: row;
+	margin: 0 auto;
+	padding-top: 50px;
+}
+.services1{
+	display: flex;
+	align-items: center;
+	padding: 0 4%;
+    flex-direction: column;
+}
+.services1 img{width: 160px;}
+.services1 h4{
+	text-align: center;
+	color: white;
+	padding: 10px 0;
+	font-size: 20px;
+}
+.services1 p{
+	width: 180px;
+	color: white;
+	font-size: 13px;
+	text-align: center;
+}
+
+.desc4{
+	width: 100%;
+	display: flex;
+	display: -webkit-flex;
+	flex-direction: column;
+}
+.work{
+	text-align: center;
+	padding-top: 8%;
+
+}
+.work h1{
+	color: #2a2a28;
+	font-size: 45px;
+}
+.work1{
+	width: 100%;
+	margin:0;
+	padding:0 ;
+}
+.work1 ul{
+	width: 100%;
+	height: 80px;
+	padding: 0 40% 0 32%;
+	margin:0;
+	display: flex;
+	display: -webkit-flex;
+	flex-direction: row;
+	align-items: center;
+	list-style: none;
+	overflow: hidden;
+}
+.work1 ul li{
+	font-size: 15px;
+	margin-left: 30px;
+	padding: 5px;
+	border: 1px solid #dbdbdb;
+	cursor:pointer;
+}
+.work2{
+	width:90%;
+	padding: 40px auto 0 auto;
+	text-align: center;
+	text-align: center;
+}
+.pic1{display:block;}
+.pic2,.pic3,.pic4,.pic5{
+	display: none;
+}
+.work2 .portfolio{
+	float: left;
+}
+.active{
+	color:white;
+	background-color:#e45946;
+	display: block;
+}
+.show{
+	position: absolute;
+	z-index: 10000;
+}
+.hidden{
+	position: absolute;
+}
+
+.work3{
+	background-image: url(../images/bg-3.jpg);
+	width: 100%;
+	height: 500px;
+	margin: 7% auto 0 auto;
+	background-attachment: fixed;
+}
+.total{
+	width: 67%;
+	display: flex;
+	display:-webkit-flex;
+	flex-direction: column;
+	align-items: center; 
+	margin: 80px auto 0 auto;
+}
+.total p{
+	color: white;
+	font-size: 35px;
+}
+.desc5{
+   width: 100%;
+   display: flex;
+   display: -webkit-flex;
+   flex-direction: column;
+   align-items: center;
+} 
+.blog{
+	text-align: center;
+	padding: 100px 0 0 0;
+}
+.blog h1{
+	color: #2a2a28;
+	font-size: 45px;
+}
+.blog1{
+	width: 100%;
+	display: flex;
+	display: -webkit-flex;
+	flex-direction: row;
+    margin: 50px 0 100px 0;
+	padding-left: 100px;
+}
+.blog2{
+	width: 280px;
+	display: flex;
+	display: -webkit-flex;
+	flex-direction: column;
+	margin-right: 40px;
+	border: 1px solid white;
+}
+.blog2 img{
+	width: 280px;
+	height: 175px;
+}
+.blog2 span{
+	padding: 25px  10px 25px 60px;
+	font-size: 13px;
+	color: white;
+	background-color: #e16d5e;
+}
+.blog2 h2{
+	padding: 25px 36px 25px 20px;
+	font-size: 20px;
+	color:#1a1a1a;
+}
+.blog2 p{
+	width: 90%;
+	padding: 0px 26px 0px 20px;
+	line-height: 20px;
+	color: #383838;
+	
+}
+.blog2 label{
+	padding: 15px 26px 20px 20px;
+    text-align: left;
+	font-size: 14px;
+    color: #383838;
+}
+.blog3{
+	display: flex;
+	display: -webkit-flex;
+	justify-content: center;
+	align-items: center;
+}
+.blog3{
+	padding: 15px;
+	color: #fff;
+	font-size: 30px;
+	background:#e16d5e;
+}
+.blog3:hover{cursor: pointer;}
+.blog4{
+	width: 100%;
+	height: 260px;
+    margin-top: 80px;
+	display: flex;;
+	display: -webkit-flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-image: url(../images/bg-2.jpg);
+	background-attachment: fixed;
+}
+.blog4 img{
+	width: 100%;
+	height: 100px;
+}
+.blog4 p{
+   color: #fff;
+   font-size: 20px;
+}
+.footer{
+	width: 100%;
+	display: flex;
+	display: -webkit-flex;
+	flex-direction: column; 
+	background-color: #1cac91;
+}
+.touch{
+	width: 88%;
+	display: flex;
+	display: -webkit-flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 260px auto 0 auto;
+}
+.touch h1{
+	color: white;
+	font-size:40px;
+}
+.touch p{
+	padding-top: 40px;
+	color: white;
+	font-size: 15px;
+}
+.touch1{
+	display: flex;
+	display: -webkit-flex;
+	flex-direction: row;
+}
+.touch2{
+    padding: 50px 10px 10px 80px;
+	display: flex;
+	display: -webkit-flex;
+    flex-direction: column;
+}
+.box{
+	padding-bottom: 30px;
+	color: #ebedea;
+}
+.box input{
+    width: 600px;
+    height: 60px;
+    font-size: 18px;
+    border: 1px solid  #ebedea;
+}
+.touch3{
+	display: flex;
+	display: -webkit-flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	padding: 50px 0px 10px 25px;
+}
+.box1 input{
+	width: 550px;
+	height: 220px;
+	border: 1px solid  #ebedea;
+}
+.search1 {
+	width: 160px;
+    padding: 14px;
+	margin-top: 30px;
+    text-align: center;
+	color: #fff;
+	font-size: 20px;
+	background:#e16d5e;
+}
+.search1:hover{cursor: pointer;}
+.desc7{
+	width: 100%;
+	height: 300px;
+	display: flex;
+	display: -webkit-flex;
+	flex-direction: column;
+	background-color: #2b2b2b;
+}
+.cricle{
+   width: 100%;
+   padding-top: 80px;
+   display: flex;
+   display: -webkit-flex;
+   flex-direction: row;
+   justify-content: center;
+}
+.cricle1{
+	margin-right:10px;
+	width:50px;
+	height:50px;
+	background-color:#414141;
+	border-radius:50%;
+
+}
+.desc8{
+	width: 100%;
+	padding-top: 30px;
+	display: flex;
+	display: -webkit-flex;
+	flex-direction: column;
+	align-items: center;
+}
+.desc8 p{
+	text-align: center;
+	font-size: 15px;
+	color: white;
+}
+.portfolio{
+	width: 230px;
+	height: 173px;
+}
+.mouse_over {
+	background: #2b2b2b;
+	z-index: 10000000;
+}
+.over{
+	border: 1px solid #dbdbdb;
+}
